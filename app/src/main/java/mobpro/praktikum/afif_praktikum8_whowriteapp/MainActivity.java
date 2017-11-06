@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         mAuthorText = (TextView) findViewById(R.id.titleText);
     }
 
-    public void searchBookss(View view){
+    public void searchBooks(View view){
         String queryString =  mBookInput.getText().toString();
         InputMethodManager inputManager = (InputMethodManager)
                 getSystemService(Context.INPUT_METHOD_SERVICE);
